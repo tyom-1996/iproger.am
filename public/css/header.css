@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Open Sans',Helvetica,sans-serif;
+}
+
+
+
+header{
+    width: 100%;
+    background: #f9f5f5;
+    min-height: 45px;
+    z-index: 1040;
+    position: fixed;
+    padding-right: inherit;
+    top: 0;
+    right: 0;
+    left: 0;
+    /* border-bottom: .9px solid #ccc; */
+}
+
+.header-wrap{
+    max-width: 1290px;
+    /* min-width: 1200px; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 45px;
+}
+
+
+.header-left{
+    display: flex;
+    align-items: center;
+}
+
+.header-logo{
+    margin-right: 28px;
+    position: relative;
+    top: -1px;
+}
+
+.header-logo a{
+    color: #0b0301;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.header-left-nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left-nav-item{
+
+}
+
+.header-left-nav-item a{
+    text-decoration: none;
+    color: #4e4e4e;
+    padding: 0 7px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.header-left-nav-item a:hover{
+    color: #6ca944;
+}
+
+
+
+.header-right{
+
+}
+
+
+.header-menu{
+    display: flex;
+    list-style: none;
+}
+
+.header-menu-item{
+
+    display: flex;
+
+    align-items: center;
+}
+
+.header-menu-item a{
+    color: #4e4e4e;
+    line-height: 13px;
+    display: block;
+    padding: 0 12px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.add-new-resume{
+    padding: 0 12px!important;
+    height: 30px;
+    border: 0;
+    font-weight: 600;
+    line-height: 30px!important;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom,#ffb63c 0%,#ffa309 100%);
+    border-radius: 5px;
+    font-size: 11px!important;
+    margin: 0 1px;
+    /* border: 1px solid #ffa611; */
+    color: white!important;
+}
+
+.add-new-resume:hover{
+    background: linear-gradient(to bottom,#ffa309 0%,#ffb63c 100%);
+}
+
+.brd-r{
+    border-right: 1px solid #4e4e4e;
+}
+
+.change-lng{
+    font-size: 12px!important;
+}
+
+
+
+.header-menu-item a:hover{
+    color: #6ca944;
+}
+
