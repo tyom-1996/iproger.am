@@ -3,7 +3,7 @@
 
         <div class="header-left">
             <div class="header-logo">
-                <a href="">🅸🅿🆁🅾🅶🅴🆁</a>
+                <a href="/">🅸🅿🆁🅾🅶🅴🆁</a>
             </div>
 
             <ul class="header-left-nav">
@@ -14,17 +14,17 @@
                 </li>
                 <li class="header-left-nav-item">
                     <a href="#">
-                        Trainings
+                        Companies
+                    </a>
+                </li>
+                <li class="header-left-nav-item">
+                    <a href="#">
+                        Resume
                     </a>
                 </li>
                 <li class="header-left-nav-item">
                     <a href="#">
                         Blog
-                    </a>
-                </li>
-                <li class="header-left-nav-item">
-                    <a href="#">
-                        Pricing
                     </a>
                 </li>
             </ul>

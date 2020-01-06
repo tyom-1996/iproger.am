@@ -5,17 +5,17 @@
 
 .section-1{
     width: 100%;
-    height: 400px;
+    height: 370px;
     background:url("https://kworks.ru/images/fox_banner.jpg");
     position: relative;
-    top: 45px;
+    margin-top: 45px;
 }
 
 
 .section-1-wrap{
     max-width: 730px;
     margin: auto;
-    padding-top: 23px;
+    padding-top: 39px;
 }
 
 .section-1-title{
@@ -97,4 +97,223 @@
     font-size: 15px;
     color: #ABABAB;
     margin-top: 9px;
+}
+
+
+
+
+
+
+.search-options{
+    display: flex;
+    height: 32px;
+    margin-bottom: 4px;
+}
+
+.search-options-label{
+    display: flex;
+    align-items: center;
+    margin-right: 19px;
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.search-options-input{
+    margin-right: 4px;
+}
+
+.search-options-label2 {
+    position: relative;
+    display: block;
+    float: left;
+    margin-right: 6px;
+    width: 13px;
+    height: 13px;
+    border: 2px solid #6eab45;
+    border-radius: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+.search-options-label2:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    background: #7cb347;
+    transform: scale(0);
+    transition: all 0.2s ease;
+    opacity: 0.08;
+    pointer-events: none;
+    margin: auto;
+}
+.search-options-label:hover .search-options-label2:after {
+    transform: scale(3.6);
+}
+.search-options-input:checked + .search-options-label2 {
+    border-color: #6eab45;
+}
+.search-options-input:checked + .search-options-label2:after {
+    transform: scale(1);
+    transition: all 0.2s cubic-bezier(0.35, 0.9, 0.4, 0.9);
+    opacity: 1;
+}
+.hidden {
+    display: none;
+}
+
+
+/*
+*  SECTION - 2
+*/
+
+
+.section-2{
+
+    margin-bottom: 35px;
+}
+.section-2-wrap{
+    width: 98%;
+    max-width: 1190px;
+    margin: auto;
+    min-height: 200px;
+}
+.section-2-wrap-title{
+    text-align: center;
+    padding: 33px 0;
+    color: #690;
+}
+
+
+.jobs-list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.jobs-item{
+    width: 23.5%;
+    min-height: 100px;
+    box-shadow: 0 0 3px #8e8e8e;
+    padding: 0 10px;
+    box-sizing: border-box;
+    background: white;
+    margin-bottom: 29px;
+}
+
+.jobs-item-img{
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    border: 1px solid #ddd;
+    background: #fff no-repeat 50% 50%;
+    background-size: 85%;
+    position: relative;
+    top: -13px;
+    margin-right: 10px;
+}
+
+
+.job-item-header{
+    display: flex;
+    justify-content: space-between;
+}
+.job-item-header-right{
+    flex: 1;
+}
+.job-item-header-title{
+    margin-bottom: 4px;
+    color: #333;
+    font-size: 17px;
+    margin-top: 8px;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 171px;
+    display: block;
+    text-decoration: none;
+}
+.job-item-header-company{
+    color: #690;
+    font-size: 12px;
+    height: 32px;
+}
+
+
+.job-item-ded-loc{
+    padding: 0 15px;
+    margin-bottom: 9px;
+}
+
+.job-item-ded-loc > p{
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: #690;
+}
+
+
+.job-item-content{
+    padding: 0 15px;
+    height: 100px;
+    color: #333;
+}
+
+.job-item-content p{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+.job-item-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+    box-sizing: border-box;
+}
+
+.job-item-footer button{
+    border: none;
+    background: transparent;
+}
+
+.follow-btn{
+    border-radius: 0;
+    background-color: #fff;
+    color: #e14c4c;
+    border-color: #e14c4c;
+    outline: none!important;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.view-more-btn{
+    color: #690;
+    cursor: pointer;
+}
+
+
+.view-more-btn:hover{
+    color: #4c6d0a;
+}
+
+.see-all-jobs{
+    width: 100%;
+    text-align: center;
+}
+
+.see-all-jobs a{
+    text-decoration: none;
+    color: #4e4e4e;
+    font-size: 17px;
+}
+
+.see-all-jobs img{
+    display: block;
+    margin: 7px auto;
 }

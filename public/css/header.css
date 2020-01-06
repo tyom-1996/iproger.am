@@ -5,13 +5,14 @@
 
 body{
     font-family: 'Open Sans',Helvetica,sans-serif;
+    background: #f5f2f2;
 }
 
 
 
 header{
     width: 100%;
-    background: #f9f5f5;
+    background: #f5f2f2;
     min-height: 45px;
     z-index: 1040;
     position: fixed;
@@ -19,7 +20,7 @@ header{
     top: 0;
     right: 0;
     left: 0;
-    /* border-bottom: .9px solid #ccc; */
+    border-bottom: 1px solid #ccc;
 }
 
 .header-wrap{
@@ -45,7 +46,7 @@ header{
 }
 
 .header-logo a{
-    color: #0b0301;
+    color: #4e4e4e;
     text-decoration: none;
     font-size: 25px;
 }
