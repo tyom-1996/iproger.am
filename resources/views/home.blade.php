@@ -118,8 +118,10 @@
                     @endfor
 
                     <div class="see-all-jobs">
-                        <a href="#">See all Jobs</a>
-                        <img src="https://job.am/Content/img/icon-down.svg" alt="Down" width="15">
+                        <a href="#">
+                            See all Jobs
+                            <img src="https://job.am/Content/img/icon-down.svg" alt="Down" width="15">
+                        </a>
                     </div>
 
                 </div>
@@ -127,42 +129,81 @@
         </section>
 
 
+        <section class="section-3">
 
-        <script>
-            var search_input = document.getElementById('general-search-input');
-            var type_this  = "Keyword, job title";
-            var _delete    = false;
-            var index      = 0;
-            var time       = 0;
-            var i          = 1;
+            <div class="section-3-left" style="background: url({{asset('images/left.jpg')}});background-size:cover ">
+                <div class="sect3-bg">
+                    <h3 class="section-3-left-title">Looking to hire?</h3>
+                    <div class="section-3-left-content">
+                        <p>
+                            Find the right candidates in seconds<br>
+                            using advanced search features.<br>
+                            You may search by job title, education, skills<br>
+                            or keywords
+                        </p>
+                    </div>
+                    <div class="section-3-left-content-footer">
+                        <a class="sect3-left-search-candidates-btn">Search Candidates</a>
+                        <a class="sect3-left-post-job-btn">Post a Job</a>
+                    </div>
+                </div>
+            </div>
 
-            function next_letter() {
+            <div class="section-3-right" style="background: url({{asset('images/right.jpg')}});background-size:cover ">
+                <div class="sect3-bg">
+                    <h3 class="section-3-right-title">Looking for a job?</h3>
+                    <div class="section-3-right-content">
+                        <p>
+                            Upload your resume to Showcase  your skills<br>
+                            and let employers contact you
+                        </p>
+                    </div>
+                    <div class="sect3-right-content-footer">
+                        <a class="sect3-right-create-resume">Create resume</a>
+                        <a class="sec3-right-resume-writing-tips">Resume Writing Tips</a>
+                    </div>
+                </div>
+            </div>
 
-                if (index == type_this.length) {
-                    i       = -1;
-                    time    = 50;
-                    _delete = true;
-                } else if(index == 0) {
-                    i    = +1
-                    time = 100;
-                } else {
-                    _delete = false;
-                }
+        </section>
 
-                search_input.placeholder = type_this.substr(0, index) + "|";
-
-                index = index + i;
-
-                if (_delete) {
-                    setTimeout("next_letter()", 400);
-                } else{
-                    setTimeout("next_letter()", time);
-                }
-            }
-
-            next_letter();
-        </script>
 
     </body>
+
+
+    <script>
+        var search_input = document.getElementById('general-search-input');
+        var type_this  = "Keyword, job title";
+        var _delete    = false;
+        var index      = 0;
+        var time       = 0;
+        var i          = 1;
+
+        function next_letter() {
+
+            if (index == type_this.length) {
+                i       = -1;
+                time    = 50;
+                _delete = true;
+            } else if(index == 0) {
+                i    = +1
+                time = 100;
+            } else {
+                _delete = false;
+            }
+
+            search_input.placeholder = type_this.substr(0, index) + "|";
+
+            index = index + i;
+
+            if (_delete) {
+                setTimeout("next_letter()", 400);
+            } else{
+                setTimeout("next_letter()", time);
+            }
+        }
+
+        next_letter();
+    </script>
 
 </html>

@@ -72,26 +72,17 @@ header{
 .header-left-nav-item a:hover{
     color: #6ca944;
 }
-
-
-
 .header-right{
 
 }
-
-
 .header-menu{
     display: flex;
     list-style: none;
 }
-
 .header-menu-item{
-
     display: flex;
-
     align-items: center;
 }
-
 .header-menu-item a{
     color: #4e4e4e;
     line-height: 13px;
@@ -101,7 +92,6 @@ header{
     font-size: 13px;
     font-weight: 600;
 }
-
 .add-new-resume{
     padding: 0 12px!important;
     height: 30px;
@@ -117,21 +107,15 @@ header{
     /* border: 1px solid #ffa611; */
     color: white!important;
 }
-
 .add-new-resume:hover{
     background: linear-gradient(to bottom,#ffa309 0%,#ffb63c 100%);
 }
-
 .brd-r{
     border-right: 1px solid #4e4e4e;
 }
-
 .change-lng{
     font-size: 12px!important;
 }
-
-
-
 .header-menu-item a:hover{
     color: #6ca944;
 }

@@ -305,6 +305,7 @@
 .see-all-jobs{
     width: 100%;
     text-align: center;
+    margin-top: 17px;
 }
 
 .see-all-jobs a{
@@ -316,4 +317,97 @@
 .see-all-jobs img{
     display: block;
     margin: 7px auto;
+}
+
+
+
+/*
+*  SECTION - 3
+*/
+
+.section-3{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1190px;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+.section-3-left{
+    width: 49%;
+    background-size:cover;
+    position: relative;
+}
+
+.section-3-right{
+    width: 49%;
+    background: url("https://magnetoitsolutions.com/wp-content/uploads/2019/07/Where-can-you-find-the-adept-web-developers-and-Full-Stack-web-developer.jpg");
+    background-size:cover;
+    position: relative;
+}
+
+.sect3-bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000000c7;
+    top: 0;
+    left: 0;
+    padding: 42px;
+    box-sizing: border-box;
+}
+
+.section-3-left-title, .section-3-right-title{
+    font-size: 24.5px;
+    color: white;
+    font-weight: normal;
+}
+
+.section-3-left-content,.section-3-right-content{
+    margin-top: 41px;
+    min-height: 90px;
+}
+
+.section-3-left-content > p,.section-3-right-content > p{
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+
+.section-3-left-content-footer,.sect3-right-content-footer{
+    margin-top: 21px;
+}
+
+.sect3-left-search-candidates-btn{
+    padding: 8px 14px;
+    background: white;
+    border: none;
+    border-radius: 3px;
+}
+.sect3-left-post-job-btn{
+    padding: 7px 14px;
+    border: 1px solid white;
+    border-radius: 3px;
+    background: transparent;
+    color: white;
+}
+
+
+.sect3-right-create-resume{
+    padding: 8px 14px;
+    background: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.sec3-right-resume-writing-tips{
+    padding: 7px 14px;
+    border: 1px solid white;
+    border-radius: 3px;
+    background: transparent;
+    color: white;
 }
