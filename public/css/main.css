@@ -185,7 +185,7 @@
 }
 .section-2-wrap-title{
     text-align: center;
-    padding: 33px 0;
+    padding: 43px 0;
     color: #690;
 }
 
@@ -199,7 +199,7 @@
 .jobs-item{
     width: 23.5%;
     min-height: 100px;
-    box-shadow: 0 0 3px #8e8e8e;
+    box-shadow: 0 0 7px #8e8e8e;
     padding: 0 10px;
     box-sizing: border-box;
     background: white;
@@ -207,15 +207,15 @@
 }
 
 .jobs-item-img{
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     background-size: cover;
     border: 1px solid #ddd;
     background: #fff no-repeat 50% 50%;
     background-size: 85%;
     position: relative;
     top: -13px;
-    margin-right: 10px;
+    /* margin-right: 10px; */
 }
 
 
@@ -230,19 +230,21 @@
     margin-bottom: 4px;
     color: #333;
     font-size: 17px;
-    margin-top: 8px;
+    margin-top: 15px;
     font-weight: 700;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 171px;
+    max-width: 152px;
     display: block;
     text-decoration: none;
+    padding-left: 14px;
 }
 .job-item-header-company{
     color: #690;
     font-size: 12px;
     height: 32px;
+    padding-left: 15px;
 }
 
 
@@ -305,7 +307,8 @@
 .see-all-jobs{
     width: 100%;
     text-align: center;
-    margin-top: 17px;
+    margin-top: 1px;
+    margin-top: 11px;
 }
 
 .see-all-jobs a{
@@ -332,7 +335,7 @@
     justify-content: space-between;
     max-width: 1190px;
     margin: auto;
-    margin-bottom: 35px;
+    /* margin-bottom: 24px; */
 }
 
 .section-3-left{
@@ -394,8 +397,14 @@
     border-radius: 3px;
     background: transparent;
     color: white;
+    transition: 0.2s;
 }
 
+.sect3-left-post-job-btn:hover,.sec3-right-resume-writing-tips:hover{
+    background: white;
+    color: #000;
+    cursor: pointer;
+}
 
 .sect3-right-create-resume{
     padding: 8px 14px;
@@ -410,4 +419,167 @@
     border-radius: 3px;
     background: transparent;
     color: white;
+    transition: 0.2s;
+}
+
+
+
+
+/*
+*  SECTION - 4
+*/
+
+
+.section-4{
+
+    margin-bottom: 35px;
+}
+.section-4-wrap{
+    width: 98%;
+    max-width: 1190px;
+    margin: auto;
+    min-height: 200px;
+}
+.section-4-wrap-title{
+    text-align: center;
+    padding: 43px 0;
+    color: #690;
+}
+
+
+.company-list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.company-item{
+    width: 32.5%;
+    min-height: 100px;
+    box-shadow: 0 0 7px #8e8e8e;
+    padding: 0 10px;
+    box-sizing: border-box;
+    background: white;
+    margin-bottom: 29px;
+}
+
+.company-item-img{
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    border: 1px solid #ddd;
+    background: #fff no-repeat 50% 50%;
+    background-size: 85%;
+    position: relative;
+    top: -13px;
+}
+
+
+.company-item-header{
+    display: flex;
+    justify-content: space-between;
+}
+.company-item-header-right{
+    flex: 1;
+}
+.company-item-header-title{
+    margin-bottom: 4px;
+    color: #333;
+    font-size: 17px;
+    margin-top: 15px;
+    font-weight: 700;
+    /* white-space: nowrap; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 214px;
+    display: block;
+    text-decoration: none;
+    padding-left: 14px;
+}
+.company-item-header-company{
+    color: #690;
+    font-size: 12px;
+    height: 32px;
+    padding-left: 15px;
+}
+
+.company-item-ded-loc{
+    padding: 0 15px;
+    margin-bottom: 9px;
+}
+
+.company-item-ded-loc > p{
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: #690;
+}
+
+
+.company-item-content{
+    padding: 0 15px;
+    height: 71px;
+    color: #333;
+}
+
+.company-item-content p{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+.company-item-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+    box-sizing: border-box;
+}
+
+.company-item-footer button{
+    border: none;
+    background: transparent;
+    border: 1px solid;
+    padding: 6px 19px;
+    color: #4c6d0a;
+}
+
+.company-item-footer button:hover{
+    background: #4c6d0a;
+    color: #fff;
+}
+
+.follow-btn{
+    border-radius: 0;
+    background-color: #fff;
+    color: #e14c4c;
+    border-color: #e14c4c;
+    outline: none!important;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.view-more-btn{
+    color: #690;
+    cursor: pointer;
+}
+
+
+.view-more-btn:hover{
+    color: #4c6d0a;
+}
+
+.see-all-company{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.see-all-company a{
+    text-decoration: none;
+    color: #4e4e4e;
+    font-size: 17px;
+}
+
+.see-all-company img{
+    display: block;
+    margin: 7px auto;
 }

@@ -39,10 +39,10 @@
                             <span class="search-options-label2"></span>Companies
                         </label>
 
-                        <label for="opt3" class="search-options-label">
-                            <input type="radio" name="options" id="opt3" value="resume" class="hidden search-options-input"/>
-                            <span class="search-options-label2"></span>Resume
-                        </label>
+{{--                        <label for="opt3" class="search-options-label">--}}
+{{--                            <input type="radio" name="options" id="opt3" value="resume" class="hidden search-options-input"/>--}}
+{{--                            <span class="search-options-label2"></span>Resume--}}
+{{--                        </label>--}}
                     </div>
 
 
@@ -83,12 +83,13 @@
                         <div class="jobs-item">
 
                             <div class="job-item-header">
-                                <a href="#" class="jobs-item-img" style="background-image: url('https://images.staff.am/upload/e/1/1/e/e11edd3e.jpg');"></a>
-                                <div class="job-item-header-right">
 
+                                <div class="job-item-header-right">
                                     <a href="#" class="job-item-header-title">Front-End WEB Developer</a>
                                     <p class="job-item-header-company">Lite-Group CJSC</p>
                                 </div>
+                                <a href="#" class="jobs-item-img" style="background-image: url('https://images.staff.am/upload/e/1/1/e/e11edd3e.jpg');"></a>
+
                             </div>
 
                             <div class="job-item-ded-loc">
@@ -166,6 +167,72 @@
             </div>
 
         </section>
+
+
+
+
+{{--    section 4--}}
+
+
+        <section class="section-4">
+            <div class="section-4-wrap">
+
+                <h2 class="section-4-wrap-title">
+                    FEATURED COMPANIES
+                </h2>
+
+                <div class="company-list">
+
+                    @for($i=0; $i<3; $i++ )
+
+                        <div class="company-item">
+
+                            <div class="company-item-header">
+
+                                <div class="company-item-header-right">
+                                    <a href="#" class="company-item-header-title">Front-End WEB Developer</a>
+                                    <p class="company-item-header-company" style="font-size: 15px;margin-top: 10px;margin-bottom: 5px;color: #690;padding-left: 15px;">
+                                        <span>
+                                            <i class="fa fa-hourglass-half"></i>
+                                            4 active jobs
+                                        </span>
+                                    </p>
+                                </div>
+                                <a href="#" class="company-item-img" style="background-image: url('https://images.staff.am/upload/e/1/1/e/e11edd3e.jpg');"></a>
+
+                            </div>
+
+
+
+                            <div class="company-item-content">
+                                <p>
+                                    Objective of the Program:
+                                    Strengthening ties between young professionals and the National Assembly of the Republic of Armenia National Assembly of
+                                </p>
+                            </div>
+
+                            <div class="company-item-footer">
+                                <button> VIEW ALL </button>
+                            </div>
+
+                        </div>
+                    @endfor
+
+                    <div class="see-all-company">
+                        <a href="#">
+                            See all Company
+                            <img src="https://job.am/Content/img/icon-down.svg" alt="Down" width="15">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+
 
 
     </body>

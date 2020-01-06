@@ -17,11 +17,11 @@
                         Companies
                     </a>
                 </li>
-                <li class="header-left-nav-item">
-                    <a href="#">
-                        Resume
-                    </a>
-                </li>
+<!--                <li class="header-left-nav-item">-->
+<!--                    <a href="#">-->
+<!--                        Resume-->
+<!--                    </a>-->
+<!--                </li>-->
                 <li class="header-left-nav-item">
                     <a href="#">
                         Blog
