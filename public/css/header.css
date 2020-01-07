@@ -4,7 +4,6 @@
 }
 
 body{
-    font-family: 'Open Sans',Helvetica,sans-serif;
     background: #f5f2f2;
 }
 
@@ -12,8 +11,8 @@ body{
 
 header{
     width: 100%;
-    background: #f5f2f2;
-    min-height: 45px;
+    background: #ffffff;
+    min-height: 73px;
     z-index: 1040;
     position: fixed;
     padding-right: inherit;
@@ -21,11 +20,14 @@ header{
     right: 0;
     left: 0;
     border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header-wrap{
-    max-width: 1290px;
+    max-width: 1190px;
     /* min-width: 1200px; */
+    width: 100%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -63,10 +65,12 @@ header{
 
 .header-left-nav-item a{
     text-decoration: none;
-    color: #4e4e4e;
+    color: #666;
     padding: 0 7px;
     font-size: 13px;
     font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .header-left-nav-item a:hover{
@@ -84,13 +88,15 @@ header{
     align-items: center;
 }
 .header-menu-item a{
-    color: #4e4e4e;
+    color: #666;
     line-height: 13px;
     display: block;
     padding: 0 12px;
     text-decoration: none;
     font-size: 13px;
     font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 .add-new-resume{
     padding: 0 12px!important;
