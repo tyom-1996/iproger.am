@@ -2,22 +2,26 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.section-title{font-size: 17px!important;/* text-align: center; */padding: 53px 0!important;letter-spacing: 3px;display: flex;align-items: center;}
+.section-title{font-size: 17px!important;/* text-align: center; */padding: 53px 0!important;letter-spacing: 3px;display: flex;align-items: center;justify-content: center;}
 
 .title-left-line{
-    height: 2px;
+    height: 1px;
     background: #669900;
     display: block;
     margin-right: 23px;
-    flex: 1;
+    /* flex: 0.5; */
+    max-width: 200px;
+    margin-left: 30px;
+    width: 100%;
 }
 
 .title-right-line{
-    height: 2px;
+    height: 1px;
     background: #669900;
     display: block;
     margin-left: 23px;
-    flex: 1;
+    width: 100%;
+    max-width: 200px;
 }
 
 
