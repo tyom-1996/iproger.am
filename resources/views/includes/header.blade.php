@@ -8,27 +8,15 @@
 
             <ul class="header-left-nav">
                 <li class="header-left-nav-item">
-                    <a href="#">
-                        Jobs
-                    </a>
+                    <a href="#"> Jobs </a>
                 </li>
                 <li class="header-left-nav-item">
-                    <a href="#">
-                        Companies
-                    </a>
+                    <a href="#"> Companies </a>
                 </li>
-<!--                <li class="header-left-nav-item">-->
-<!--                    <a href="#">-->
-<!--                        Resume-->
-<!--                    </a>-->
-<!--                </li>-->
                 <li class="header-left-nav-item">
-                    <a href="#">
-                        Blog
-                    </a>
+                    <a href="#"> Blog </a>
                 </li>
             </ul>
-
         </div>
 
         <div class="header-right">
