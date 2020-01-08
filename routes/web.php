@@ -14,4 +14,4 @@
 //Route::get('/', function () {
 //    return view('home');
 //});
-Route::get('/',"index@MainController");
+Route::get('/',"MainController@index");
