@@ -260,7 +260,7 @@
 */
 
 
-.section-4{padding-bottom: 73px;background: #f9f9f9;}
+.section-4{padding-bottom: 43px;background: #f9f9f9;}
 .section-4-wrap{width: 98%;max-width: 1190px;margin: auto;min-height: 200px;}
 .section-4-wrap-title{/* text-align: center; */padding: 43px 0;color: #690;font-size: 19px;}
 
@@ -299,15 +299,15 @@
 *  SECTION - 5
 */
 
-/*.section-5{ padding-bottom: 35px; background: #ffffff; }*/
-/*.section-5-wrap{width: 98%;max-width: 1190px;margin: auto;min-height: 200px;}*/
-/*.section-5-wrap-title{ padding: 43px 0; color: #690; text-transform: uppercase; font-size: 19px; }*/
-/*.section-5-content{display: flex;justify-content: space-between;flex-wrap: wrap;!* width: 75%; *!margin: auto;padding: 10px 0 10px 0;}*/
-/*.section-5-content-item{max-width: 220px;}*/
-/*.section-5-img-wrap{width: 135px;height: 135px;border: 1px dashed #64a543;margin: 0 auto 15px auto;border-radius: 50%;position: relative;}*/
-/*.section-5-img-wrap > svg{width: 100%;height: 100%;}*/
-/*.section-5-img-wrap > img{position: absolute; width: 58px; top: -6px; bottom: 0; right: 0; left: 0; margin: auto;}*/
-/*.section-5-content-desc{font-size: 16px;color: #666;text-align: center;}*/
+.section-5{ padding-bottom: 35px; background: #ffffff; }
+.section-5-wrap{width: 98%;max-width: 1190px;margin: auto;min-height: 200px;}
+.section-5-wrap-title{ padding: 43px 0; color: #690; text-transform: uppercase; font-size: 19px; }
+.section-5-content{display: flex;justify-content: space-between;flex-wrap: wrap;/* width: 75%; */margin: auto;padding: 10px 0 10px 0;}
+.section-5-content-item{max-width: 220px;}
+.section-5-img-wrap{width: 115px;height: 115px;border: 1px dashed #64a543;margin: 0 auto 15px auto;border-radius: 50%;position: relative;}
+.section-5-img-wrap > svg{width: 100%;height: 100%;}
+.section-5-img-wrap > img{position: absolute; width: 58px; top: -6px; bottom: 0; right: 0; left: 0; margin: auto;}
+.section-5-content-desc{font-size: 16px;color: #666;text-align: center;}
 
 
 
@@ -339,9 +339,4 @@
     }
 }
 
-.see-all-jobs a:hover img,.see-all-company a:hover img    {
-    -webkit-animation: swing 0.6s ease;
-    animation: swing 0.6s ease;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;
-}
+.see-all-jobs a:hover img,.see-all-company a:hover img {-webkit-animation: swing 0.6s ease;animation: swing 0.6s ease;-webkit-animation-iteration-count: 1;animation-iteration-count: 1;}

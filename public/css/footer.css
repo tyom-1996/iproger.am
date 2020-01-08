@@ -1,9 +1,18 @@
-footer{width: 100%;min-height: 145px;position: relative;background: #79ab47;}
+footer{width: 100%;min-height: 145px;position: relative;}
 
 .footer-wrap{width: 98%;max-width: 1190px;margin: auto;display: flex;justify-content: space-between;padding: 59px 0;}
 .footer-ul{list-style: none;width: 308px;}
 .footer-ul-li{font-size: 18px;color: white;font-size: 14px;line-height: 29px;letter-spacing: 1px;}
-.footer-bg{width: 100%;height: 100%;background: #1d4354e0;}
+.footer-ul-li a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-ul-li a:hover{
+    text-decoration: underline;
+}
+
+.footer-bg{width: 100%;height: 100%;background: #1d43541f;}
 
 
 
