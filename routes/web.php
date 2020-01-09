@@ -14,4 +14,11 @@
 //Route::get('/', function () {
 //    return view('home');
 //});
+
 Route::get('/',"MainController@index");
+
+Route::get('/login',"LoginController@index");
+Route::get('/signup',"RegisterController@index")->name('signup');
+Route::get('/signup/candidates',"RegisterController@signupCandidatesTemplate")->name('signup_candidates');
+Route::get('/signup/employers',"RegisterController@signupEmployersTemplate")->name('signup_employers');
+

@@ -294,7 +294,7 @@
 .view-more-btn:hover{ color: #4c6d0a; }
 
 .see-all-company{width: 100%;text-align: center;margin-top: 10px;}
-.see-all-company a:hover img{top: 5px}
+/*.see-all-company a:hover img{top: 5px}*/
 .see-all-company a{text-decoration: none;color: #4e4e4e;font-size: 15px;display: inline-block;}
 .see-all-company img{display: block;margin-left: 19px;width: 13px;margin: 11px auto 0 auto;position: relative;}
 

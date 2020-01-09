@@ -23,7 +23,7 @@
             <ul class="header-menu">
 
                 <li class="header-menu-item">
-                    <a href="/register" class="brd-r">
+                    <a href="{{route('signup')}}" class="brd-r">
                         <i class="fa fa-user" aria-hidden="true"></i>
                         Sign Up
                     </a>

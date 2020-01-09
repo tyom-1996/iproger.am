@@ -21,7 +21,7 @@
             </ul>
 
             <ul class="footer-ul">
-                <h3 class="footer-ul-li"> INDIVIDUALS </h3>
+                <h3 class="footer-ul-li"> CANDIDATES </h3>
                 <li class="footer-ul-li">
                     <a href="#">Create online CV</a>
                 </li>
@@ -35,7 +35,7 @@
             </ul>
 
             <ul class="footer-ul">
-                <h3 class="footer-ul-li"> COMPANIES </h3>
+                <h3 class="footer-ul-li"> EMPLOYERS </h3>
                 <li class="footer-ul-li">
                     <a href="#">Register as employer</a>
                 </li>
