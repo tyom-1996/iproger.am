@@ -45,7 +45,7 @@
             <button id="btn-login">Sign in</button>
 
             <p class="login-bottom">
-                Don't have an account yet? <a class="open-sign-in-btn" href="/en/registration"> Register</a>&nbsp;your account now.
+                Don't have an account yet? <a class="open-sign-in-btn" href="{{route('signup')}}"> Register</a>&nbsp;your account now.
             </p>
 
         </div>

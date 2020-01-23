@@ -1,0 +1,67 @@
+
+.choose-signup-block{min-height: 550px;margin-top: 57px;}
+
+.choose-signup-block-wrap{
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+    padding-top: 67px;
+}
+.choose-signup-block-wrap > hr{color: #f5f2f2;/* border: none; *//* height: 1px; */width: 83%;background: #7bb2464d;margin: 32px auto 35px auto;border: 1px dashed;}
+
+.sign-title{
+    /* margin-top: 119px; */
+    padding: 0 40px 0 40px;
+    font-size: 30px;
+    text-align: center;
+    color: #463c3c;
+}
+
+.sign-list{
+    margin-top: 12px;
+}
+
+.sign-list-item{
+    text-align: center;
+    list-style: none;
+    max-width: 480px;
+    margin: auto;
+    height: 34px;
+    padding: 0 12px;
+    background-color: #7bb246;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 17px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.sign-list-item:hover{
+    background: #549416;
+}
+
+.sign-list-item a{
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.auth-instruction{
+    font-size: 15px;
+    color: #505050;
+    font-family: proxima-nova, "Proxima Nova", Helvetica, Arial, sans-serif;
+    line-height: 1.8em;
+    text-align: center;
+}
+
+.auth-instruction a{
+    color: #1facde;
+    text-decoration: none;
+}
